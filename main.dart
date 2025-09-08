@@ -40,14 +40,14 @@ class MyApp extends StatelessWidget {
                     ElevatedButton(
                       onPressed: () {},
                       style: ElevatedButton.styleFrom(
-                      padding: EdgeInsets.only(left: 100, right: 100),
+                        padding: EdgeInsets.only(left: 100, right: 100),
                         backgroundColor: Color(0xFFd82424),
                       ),
                       child: Text('Medicamentos',
-                          style: TextStyle (
+                        style: TextStyle (
                           color: Colors.white,
-                        fontSize: 17,
-                      ),
+                          fontSize: 17,
+                        ),
                       ),
                     ),
                     SizedBox(width: 10),
@@ -62,9 +62,9 @@ class MyApp extends StatelessWidget {
                   ),
                   child: Text('Horário',
                     style: TextStyle (
-                    color: Colors.white,
-                    fontSize: 17,
-                  ),
+                      color: Colors.white,
+                      fontSize: 17,
+                    ),
                   ),
                 ),
 
@@ -72,28 +72,28 @@ class MyApp extends StatelessWidget {
                 ElevatedButton(
                   onPressed: () {},
                   style: ElevatedButton.styleFrom(
-                    padding: EdgeInsets.only(left: 130, right: 120),
-                    backgroundColor: Color(0xFF1f80ff)
+                      padding: EdgeInsets.only(left: 130, right: 120),
+                      backgroundColor: Color(0xFF1f80ff)
                   ),
                   child: Text('Consultas',
                     style: TextStyle (
-                    color: Colors.white,
-                    fontSize: 17,
-                  ),
+                      color: Colors.white,
+                      fontSize: 17,
+                    ),
                   ),
                 ),
                 SizedBox(height: 20),
                 ElevatedButton(
                   onPressed: () {},
                   style: ElevatedButton.styleFrom(
-                    padding: EdgeInsets.only(left: 130, right: 120),
-                    backgroundColor: Color(0xFF035752)
+                      padding: EdgeInsets.only(left: 130, right: 120),
+                      backgroundColor: Color(0xFF035752)
                   ),
                   child: Text('Ouvidoria',
                     style: TextStyle (
-                    color: Colors.white,
-                    fontSize: 17,
-                  ),
+                      color: Colors.white,
+                      fontSize: 17,
+                    ),
                   ),
                 ),
               ],
